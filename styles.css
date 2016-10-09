@@ -1,0 +1,33 @@
+body {
+  margin-top: 150px;
+  background-color: #0099CC;
+}
+
+#text-muted {
+  font-size: 2rem;
+  color: #CCFFCC;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
